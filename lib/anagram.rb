@@ -8,7 +8,6 @@ class Anagram
   
   def match(words)
     words.each do |word|
-      word
       if word == @word.sort
         return word
       else 
