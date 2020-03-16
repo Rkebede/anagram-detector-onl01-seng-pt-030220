@@ -13,7 +13,7 @@ class Anagram
         end 
       anagram << word
     end
-    return [ ]
+    return anagram
   end
   
 end 
