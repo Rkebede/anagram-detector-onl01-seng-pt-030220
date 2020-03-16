@@ -13,8 +13,8 @@ class Anagram
       return each_word
     else 
       return [ ]
-      
     end
+  end
   end
   
 end 
