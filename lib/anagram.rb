@@ -7,7 +7,10 @@ class Anagram
   end
   
   def match(word)
-    @word
+    word.map do |w| 
+      each_word = w.split(" ")
+    if @word <=> each_word
+    end
   end
   
 end 
