@@ -10,8 +10,8 @@ class Anagram
     anagram = [ ]
     words.each do |word|
       if word.chars.sort == @word.chars.sort
-        anagram << word
-      end 
+        end 
+      anagram << word
     end
     return [ ]
   end
