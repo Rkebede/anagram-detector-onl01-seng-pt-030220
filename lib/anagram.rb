@@ -6,11 +6,11 @@ class Anagram
     @word = word
   end
   
-  def match(word)
-    @word.each do |each_word|
-      anagram = each_word.sort
-      if @word.sort == anagram
-        return anagram
+  def match(words)
+    words.each do |word|
+      word
+      if word == @word.sort
+        return word
       else 
         return [ ]
       end 
